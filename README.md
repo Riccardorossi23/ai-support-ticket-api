@@ -393,5 +393,3 @@ Test automatizzati
 ## Autore
 
 **Riccardo Rossi**
-
-GitHub: https://github.com/Riccardorossi23
