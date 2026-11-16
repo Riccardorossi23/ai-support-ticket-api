@@ -1,0 +1,10 @@
+fastapi
+uvicorn[standard]
+# Tengo SQLAlchemy alla 2.0: la 2.1 usa estensioni compilate che sul mio PC Windows venivano bloccate.
+sqlalchemy>=2.0,<2.1
+pydantic[email]
+pytest
+httpx
+# PyJWT e' scritto in puro Python, a differenza di python-jose[cryptography] che richiede librerie native.
+PyJWT
+python-dotenv
